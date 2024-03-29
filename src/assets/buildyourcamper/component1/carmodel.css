@@ -1,0 +1,68 @@
+.carmodel {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0;
+}
+
+.carmodel h2 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+
+.carbase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #eeeeee;
+    border-radius: 6px;
+    padding: 1% 0;
+    margin: 10px 0 25px;
+}
+
+.carbase-n {
+    width: 94%;
+    margin: 2px 0;
+    padding: 1% 2%;
+    cursor: pointer;
+    background: #ffffff;
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.carbase-n i {
+    font-size: 20px;
+}
+
+.carmodel h3 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 97%;
+    padding: 0 0 0 2%;
+    border-left: #cc0000 solid 2px;
+}
+
+.carmodel h4 {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 90%;
+    margin: 5px 0 0;
+}
+
+.carbase-select {
+    width: 98%;
+    margin: 2px 0;
+}

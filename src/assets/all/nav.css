@@ -1,0 +1,41 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background: #ffffffcc;
+    backdrop-filter: blur(25px);
+    z-index: 4;
+}
+
+.nav-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content-img {
+    height: 100%;
+    width: 150px;
+    object-fit: contain;
+}
+
+.nav-menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    font-weight: 400;
+}
+
+.nav-menu a:hover {
+    color: #cc0000;
+}

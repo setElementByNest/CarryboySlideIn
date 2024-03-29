@@ -1,0 +1,19 @@
+.notice {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    background: #00000088;
+    backdrop-filter: blur(25px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+}
+
+.notice h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+    text-align: right;
+}
