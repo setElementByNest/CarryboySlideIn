@@ -1,0 +1,54 @@
+.customer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.customer h3 {
+    width: 100%;
+    text-align: left;
+    color: #000000aa;
+    font-size: 16px;
+    font-weight: 400;
+}
+.customer p {
+    color: #00000088;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.customer input {
+    width: 96%;
+    border: #00000022 solid 1px;
+    background: #00000011;
+    border-radius: 4px;
+    padding: 2%;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 4px 0 15px;
+    color: #000000;
+}
+
+.customer input:focus {
+    outline: #000000 solid 1px;
+}
+
+.customer-bt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #aa0000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+    margin: 15px 0 5vh;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.customer-bt:hover {
+    background: #000000;
+}

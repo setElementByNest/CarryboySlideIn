@@ -1,0 +1,58 @@
+.layout1page2 {
+    width: 400px;
+    background: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    transform: translate(0, 100vh);
+    transition: all 0.6s;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.lo2-back {
+    margin: 100px 0 0;
+    width: 90%;
+}
+
+
+.lo2-back h3 {
+    color: #00000088;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    transition: all 0.6s;
+}
+.lo2-back i {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+.lo2-back h3:hover {
+    color: #cc0000;
+}
+
+@media (max-width: 900px) {
+    .layout1page2 {
+        width: 100%;
+        background: #ffffff;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        transform: translate(0, 100vh);
+        transition: all 0.6s;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+}

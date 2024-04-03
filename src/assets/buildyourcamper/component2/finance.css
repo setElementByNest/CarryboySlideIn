@@ -1,0 +1,70 @@
+.finance {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.finance h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.finance p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.finance-bt {
+    display: flex;
+    width: 100%;
+    background: #dddddd;
+    border-radius: 4px;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.finance-bt-n {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #ffffff; */
+    font-size: 16px;
+    font-weight: 400;
+    width: 48%;
+    height: 35px;
+    margin: 1% 1%;
+    /* box-shadow: 0px 1px 4px 1px #00000044; */
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.finance-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2px 0;
+    align-items: center;
+}
+
+
+.finance-list h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.finance-list h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #00000088;
+}
+
+.loan-n {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 15px;
+    border: #00000066 solid 1px;
+    border-radius: 4px;
+    margin: 4px;
+    outline: #cc000000 solid 2px;
+    cursor: pointer;
+}

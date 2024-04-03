@@ -6,12 +6,17 @@
     overflow-x: hidden;
     overflow-y: scroll;
     scrollbar-width: none;
+    position: relative;
+    scroll-behavior: smooth;
 }
+
 .layout1-content-1 {
     width: 100%;
     height: 100%;
     background: #00000044;
+    position: relative;
 }
+
 .layout1-content-2 {
     width: 100%;
     height: 100%;
@@ -19,8 +24,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .custom-select:hover .ant-select-selector {
-    border-color: red !important; /* Change the outline color to red on hover */
-  }
+    border-color: red !important;
+    /* Change the outline color to red on hover */
+}
+
+@media (max-width: 900px) {
+    .layout1 {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        position: relative;
+        scroll-behavior: smooth;
+    }
+    .layout1-content-1 {
+        display: none;
+    }
+
+    .lo1-img-mobile {
+        width: 100%;
+        height: 50vw;
+        background: #cccccc;
+        border-radius: 4px;
+        margin: 2px 0 25px;
+    }
+}

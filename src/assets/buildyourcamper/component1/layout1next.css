@@ -1,0 +1,33 @@
+.layout1next {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0;
+    height: 50vh;
+}
+.layout1next h2 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+.layout1next p {
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.lo1-button {
+    background: #aa0000;
+    color: #ffffff;
+    padding: 10px 40px;
+    margin: 40px 0 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.lo1-button:hover {
+    background: #880000;
+}

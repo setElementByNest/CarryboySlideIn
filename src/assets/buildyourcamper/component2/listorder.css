@@ -1,0 +1,27 @@
+.listorder {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 0;
+}
+
+.listorder-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listorder-head h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.listorder-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2px;
+}
+
+.listorder-list h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
